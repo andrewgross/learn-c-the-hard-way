@@ -11,6 +11,9 @@ ex1:
 ex3:
 		$(CC) $(CFLAGS) -o $(OBJDIR)/ex3 $(SRCDIR)/ex3.c
 
+ex4:
+		$(CC) $(CFLAGS) -o $(OBJDIR)/ex4 $(SRCDIR)/ex4.c
+
 clean:
 		rm -rf $(OBJDIR)/*
 
